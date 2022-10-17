@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.frame {
+    display:flex; 
+ }
+
+ .interactive{
+flex: 1 1 100px;
+ }
+.plName{
+    margin-top: 100px;
+}
+
+#root {
+    flex: 4 1 100px;
+    text-align: center
+}
+
+#root h1 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: white;
+}
+
+#root canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.Chat{
+    float: left;
+    background-color: rgb(80, 82, 83);
+    width: 170px;
+    height: 200px;
+    border: solid red 1px; 
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Press Start 2P', Consolas, monospace;
+}
+.plName {
+display: flex;
+flex-direction: column;
+justify-content: center ;
+color: white;
+font-family: 'Press Start 2P', Consolas, monospace;
+
+}
+.plName input {
+    background-color: rgb(80, 82, 83);
+    color: white;
+    width: 170px;
+
+}
+
+ input[type=button] {
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    transition: transform 0.5s 
+}
+
+input[type=button]:hover { 
+    transform: scale(0.9); }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+
+
+    .scoreTable{
+        flex: 0 1 70%;
+        border: solid red 5px;
+        background-color: aliceblue;
+    }
+
+
+
+
+
+
+
+
+
